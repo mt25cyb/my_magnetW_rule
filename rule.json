@@ -1,15 +1,23 @@
 [
   {
-    "id": "ciligogo",
-    "name": "磁力狗狗",
+    "id": "clmma16",
+    "name": "磁力妹妹",
     "proxy": false,
-    "url": "https://m.zhongziso19.xyzhttp://www.ciligogo.vip/
+    "url": "https://clmma16.xyz/"
     "paths": {
-      "time": "/list/{k}/{p}",
-      "size": "/list_length/{k}/{p}",
-      "hot": "/list_click/{k}/{p}"
-    }, 
-    {
+      "time": "/search-{k}-0-2-{p}",
+      "size": "/search-{k}-0-1-{p}",
+      "hot": "/search-{k}-0-3-{p}"
+    },
+    "xpath": {
+      "group": "//dl[@class=\"detail\"]",
+      "magnet": "./dd/span[5]/a/@href",
+      "name": "./dt/a/span",
+      "size": "./dd/span[2]",
+      "date": "./dd/span[0]/b"
+    }
+  },
+  {
     "id": "zhongzisou",
     "name": "种子搜",
     "proxy": true,
@@ -26,7 +34,7 @@
       "size": "./li[2]/dl[1]/dd[2]",
       "date": "./li[2]/dl[1]/dd[3]"
     }
-  },
+  },	  
   {
     "id": "btgg",
     "name": "BTGG",
